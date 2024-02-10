@@ -4,7 +4,6 @@
 	import type { SubmitFunction } from '@sveltejs/kit';
 	import '../app.postcss';
 	import { theme as Theme } from '../lib/stores/theme.store.js';
-	import { get } from 'svelte/store';
 
 	import { onDestroy } from 'svelte';
 
